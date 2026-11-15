@@ -8,7 +8,8 @@ public class DashboardController {
 
     @GetMapping("/")
     public String home() {
-        System.out.println("home Dashboard");
+        System.out.println("HOME");
+        System.out.println(" DASHBOARD !!");
         return "dashboard";
     }
 }
