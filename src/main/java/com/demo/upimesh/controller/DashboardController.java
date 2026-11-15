@@ -8,6 +8,7 @@ public class DashboardController {
 
     @GetMapping("/")
     public String home() {
+        System.out.println("home Dashboard");
         return "dashboard";
     }
 }
